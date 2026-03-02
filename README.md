@@ -2,7 +2,7 @@
 
 > Build AI agent crews with CrewAI, powered by Crazyrouter — Save 45%.
 
-[Crazyrouter](https://crazyrouter.com?ref=github) — One API key, 300+ models.
+[Crazyrouter](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github) — One API key, 300+ models.
 
 ## 💰 Price Comparison
 
@@ -22,14 +22,14 @@ pip install crewai crewai-tools
 ### Environment Setup
 ```bash
 export OPENAI_API_KEY=sk-your-crazyrouter-key
-export OPENAI_API_BASE=https://crazyrouter.com/v1
+export OPENAI_API_BASE=https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1
 ```
 
 ### Basic Crew
 ```python
 import os
 os.environ["OPENAI_API_KEY"] = "sk-your-crazyrouter-key"
-os.environ["OPENAI_API_BASE"] = "https://crazyrouter.com/v1"
+os.environ["OPENAI_API_BASE"] = "https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1"
 
 from crewai import Agent, Task, Crew, Process
 
@@ -97,7 +97,7 @@ A: Yes! Specify different model IDs per agent.
 A: Yes, all tools work independently of the LLM provider.
 
 ## 🔗 Links
-- 🌐 [Crazyrouter](https://crazyrouter.com?ref=github)
+- 🌐 [Crazyrouter](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github)
 - 🚢 [CrewAI](https://github.com/crewAIInc/crewAI)
 - 💬 [Telegram](https://t.me/crzrouter)
 
